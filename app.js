@@ -3,7 +3,7 @@ const app = express()
 
 
 
-// database connection ho 
+// database connection  
 require("./model/index")
 
 app.get("/",(req,res)=>{
